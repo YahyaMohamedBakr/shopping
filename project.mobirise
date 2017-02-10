@@ -23,7 +23,7 @@
     "versionFirst": "3.11.1",
     "uniqCompNum": 9,
     "versionPublish": "3.11.1",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/shopping-cart-md-128x113.png",
     "noImageResize": ""
   },
   "pages": {
