@@ -411,15 +411,22 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#header6-8 .mbr-section-title {
-  color: #054317;
+#header6-c .mbr-section-title {
+  color: #28262b;
 }
-#header6-8 .mbr-section-text {
+#header6-c .mbr-section-text {
   color: #565656;
 }
-#header6-8 .btn {
+#header6-c .btn {
+  font-size: 23px;
+}
+#header6-b .mbr-section-title {
+  color: #28262b;
+}
+#header6-b .mbr-section-text {
+  color: #565656;
   font-size: 20px;
 }
-#header6-8 .mbr-section-text B {
-  color: #000000;
+#header6-b .btn {
+  font-size: 20px;
 }

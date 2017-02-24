@@ -62,7 +62,7 @@
               "color": "#565656"
             },
             ".btn": {
-              "font-size": "32px"
+              "font-size": "23px"
             }
           },
           "_tags": [
@@ -93,7 +93,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/aliexpress-1400x834.jpg",
+              "src": "@PROJECT_PATH@/assets/images/how-to-buy-prodcuts-from-aliexpress-in-pakistan-logo-1400x465.png",
               "link": "",
               "alt": "",
               "title": "",
