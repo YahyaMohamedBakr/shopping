@@ -21,8 +21,10 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 13,
-    "versionPublish": "3.11.1"
+    "uniqCompNum": 9,
+    "versionPublish": "3.11.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -56,22 +58,26 @@
           "_inherit": "header2",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#28262b"
+              "color": "#000000"
             },
             ".mbr-section-text": {
-              "color": "#565656"
+              "color": "#000000",
+              "font-size": "22px"
             },
             ".btn": {
-              "font-size": "23px"
+              "font-size": "20px"
+            },
+            ".mbr-section-text B": {
+              "color": "#000000"
             }
           },
           "_tags": [
             "Theme"
           ],
           "_name": "header6",
-          "_anchor": "header6-c",
+          "_anchor": "header6-8",
           "_params": {
-            "imageSize": "50",
+            "imageSize": 50,
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/how-to-buy-prodcuts-from-aliexpress-in-pakistan-logo-2000x665.png",
@@ -83,7 +89,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.9",
-            "overlayColor": "#ccc",
+            "overlayColor": "#faaf40",
             "inverse": true,
             "showTitle": true,
             "showText": true,
@@ -93,11 +99,11 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/how-to-buy-prodcuts-from-aliexpress-in-pakistan-logo-1400x465.png",
-              "link": "",
+              "src": "@PROJECT_PATH@/assets/images/aliexpress-1400x834.jpg",
+              "link": "http://arabyads.go2cloud.org/aff_c?offer_id=1776&aff_id=8386",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false,
+              "linkInNewWindow": true,
               "active": true
             },
             "video": {
@@ -112,103 +118,9 @@
               "size": 250
             }
           },
-          "title": "علي إكس بريس أكبر وأشهر موقع للتجارة الإلكترونية",
-          "text": "<b>تسوق كل شيء يخطر ببالك الآن من علي إكسبريس واشحن لأي دولة في العالم</b><br>",
+          "title": "علي إكس بريس أكبر وأشهر المواقع للتجارة الإلكترونية",
+          "text": "<b>تسوق كل شيء يخطر ببالك واشحن لأي دولة في العالم</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://arabyads.go2cloud.org/aff_c?offer_id=1776&amp;aff_id=8386\" data-toolbar=\"-mbrBtnMove\">تسوق الآن</a>"
-        }
-      ]
-    },
-    "page1.html": {
-      "settings": {
-        "title": "Web Creator Title",
-        "meta_descr": "Web Creator Description"
-      },
-      "components": [
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-a",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Yahya Bakr"
-        },
-        {
-          "_inherit": "header2",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#28262b"
-            },
-            ".mbr-section-text": {
-              "color": "#565656",
-              "font-size": "20px"
-            },
-            ".btn": {
-              "font-size": "20px"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header6",
-          "_anchor": "header6-b",
-          "_params": {
-            "imageSize": 50,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.9",
-            "overlayColor": "#ccc",
-            "inverse": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "linkInNewWindow": false,
-              "name": "alert",
-              "family": "MobiriseIcons",
-              "link": "http://arabyads.go2cloud.org/aff_c?offer_id=884&aff_id=8386&source=http://ar-sa.sivvi.com/",
-              "size": 250,
-              "newWindow": false
-            }
-          },
-          "title": "سيفي.كوم<br>الموضة أونلاين",
-          "text": "<b>توصيل مجاني، استرداد كامل للمبلغ المدفوع، الدفع عند الاستلام</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://arabyads.go2cloud.org/aff_c?offer_id=884&amp;aff_id=8386&amp;source=http://ar-sa.sivvi.com/\" data-toolbar=\"-mbrBtnMove\">تسوق الآن</a>"
         }
       ]
     }
